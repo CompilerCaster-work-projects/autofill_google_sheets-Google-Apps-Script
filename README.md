@@ -29,6 +29,9 @@ This file consists of typical blocks, one of which I will describe now. All othe
 
 Work with the demand file occurs as follows: The machine learning model predicts the number of inspections on a given day (I have nothing to do with this model). We also know, thanks to the work schedule, information about employees. Next, forecast information about the number of inspections and information about how many people will work in each hour are inserted into a typical block of the file and we get the result in the form of knowing whether we have enough people working at this hour, or whether it is worth revising the shifts in the schedule so that there are enough people everywhere.
 
+![изображение](https://github.com/CompilerCaster/autofill_google_sheets/assets/128957307/5ac4cd13-d344-4310-9db1-ab9174edeb8e)
+
+
 
 
 
