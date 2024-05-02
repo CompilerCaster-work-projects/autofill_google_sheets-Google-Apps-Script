@@ -25,6 +25,35 @@ This file consists of typical blocks, one of which I will describe now. All othe
 | 12 | Day numbers of the month |
 | 13-17 | Decoding of shift key legends and counting shifts, hours, etc. |
 
+### Learn more about the "Needs" file
+
+Work with the demand file occurs as follows: The machine learning model predicts the number of inspections on a given day (I have nothing to do with this model). We also know, thanks to the work schedule, information about employees. Next, forecast information about the number of inspections and information about how many people will work in each hour are inserted into a typical block of the file and we get the result in the form of knowing whether we have enough people working at this hour, or whether it is worth revising the shifts in the schedule so that there are enough people everywhere.
+
+![изображение](https://github.com/CompilerCaster/autofill_google_sheets/assets/128957307/5ac4cd13-d344-4310-9db1-ab9174edeb8e)
+
+| №  | Description                                          |
+|----|--------------------------------------------------------------|
+| 1  | Part that has been automated in this project                 |
+| 2  | City names                                                    |
+| 3  | Shift names. Shifts always look the same. In this example, on January 1, 2023, in Tver, during the "Day 1" shift, people work from 8 AM to 11 AM, then take a break for 1 hour, and then work from 12 PM to 8 PM. And in this way (time-wise), this shift in this city always looks the same, from month to month and from day to day. |
+| 4  | Result row. Here it is indicated whether there are enough people working at this hour |
+| 5  | Name of the hour of the day                                   |
+| 6  | Date and day of the week                                      |
+
+### How to fill out the "Requirements" file using the "Work Schedule" file
+Let's say we want to fill out the "Needs" in Tver on September 3, 2023.
+1. Let’s see that in Tver on September 3, 4 people will work during the day and 4 people at night (different people always work day and night, this is the rule);
+
+   ![изображение](https://github.com/CompilerCaster/autofill_google_sheets/assets/128957307/63af7f70-be95-4f92-8ebb-a1255cbba23b)
+
+3. Then, knowing what each shift looks like in terms of time requirements, we indicate that during the day the first person will work according to the “Day 1” scheme, the second person according to the “Day 2” scheme
+The third will work according to the “Day 3” scheme, and the fourth will again work according to the “Day 1” scheme. And this happens all the time. The fifth person would work on Day 2, the sixth person would work on Day 3, and so on. We do the same with night shifts;
+
+![изображение](https://github.com/CompilerCaster/autofill_google_sheets/assets/128957307/e80028c9-4a5e-4b96-ad88-66352d083857)
+
+
+
+
 
 
 
