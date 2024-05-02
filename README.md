@@ -25,6 +25,8 @@ This file consists of typical blocks, one of which I will describe now. All othe
 | 12 | Day numbers of the month |
 | 13-17 | Decoding of shift key legends and counting shifts, hours, etc. |
 
+### Learn more about the "Needs" file
+
 
 
 
