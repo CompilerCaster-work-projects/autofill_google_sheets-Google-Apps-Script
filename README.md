@@ -9,5 +9,22 @@ This file consists of typical blocks, one of which I will describe now. All othe
 
 ![image](https://github.com/CompilerCaster/autofill_google_sheets/assets/128957307/1decaf24-06a2-4e28-b7a5-45e94b3ec085)
 
+| №  | Description                      |
+|----|-----------------------------------------|
+| 1  | List of medics planning to work at least one shift this month. |
+| 2  | Field where the senior paramedic assigns shifts for each medic for the month (assigns the first letters of the shift names, for example "D" for day shift, "N" for night shift). |
+| 3  | Simply a label. It's the same everywhere and doesn't carry any functionality. |
+| 4  | Label indicating the year for which the schedule is being created. |
+| 5  | Label indicating the month for which the schedule is being created. |
+| 6  | Conditional designation indicating that the number of people on shift for that day is specified in this row. |
+| 7  | Shift key legend |
+| 8  | Number of shifts of a specific type for each day |
+| 9  | Number of people who worked on this day |
+| 10 | Conditional designation indicating that the names of employees who will work this month are specified in this column. |
+| 11 | Simply ordinal numbers of employees. It doesn't carry any functionality. |
+| 12 | Day numbers of the month |
+| 13-17 | Decoding of shift key legends and counting shifts, hours, etc. |
+
+
 
 
