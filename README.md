@@ -40,6 +40,12 @@ Work with the demand file occurs as follows: The machine learning model predicts
 | 5  | Name of the hour of the day                                   |
 | 6  | Date and day of the week                                      |
 
+### How to fill out the "Requirements" file using the "Work Schedule" file
+Let's say we want to fill out the "Needs" in Tver on September 3, 2023.
+1. Let’s see that in Tver on September 3, 4 people will work during the day and 4 people at night (different people always work day and night, this is the rule);
+2. Then, knowing what each shift looks like in terms of time requirements, we indicate that during the day the first person will work according to the “Day 1” scheme, the second person according to the “Day 2” scheme
+The third will work according to the “Day 3” scheme, and the fourth will again work according to the “Day 1” scheme. And this happens all the time. The fifth person would work on Day 2, the sixth person would work on Day 3, and so on;
+
 
 
 
