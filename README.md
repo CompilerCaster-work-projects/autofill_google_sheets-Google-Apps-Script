@@ -43,8 +43,14 @@ Work with the demand file occurs as follows: The machine learning model predicts
 ### How to fill out the "Requirements" file using the "Work Schedule" file
 Let's say we want to fill out the "Needs" in Tver on September 3, 2023.
 1. Let’s see that in Tver on September 3, 4 people will work during the day and 4 people at night (different people always work day and night, this is the rule);
-2. Then, knowing what each shift looks like in terms of time requirements, we indicate that during the day the first person will work according to the “Day 1” scheme, the second person according to the “Day 2” scheme
-The third will work according to the “Day 3” scheme, and the fourth will again work according to the “Day 1” scheme. And this happens all the time. The fifth person would work on Day 2, the sixth person would work on Day 3, and so on;
+
+   ![изображение](https://github.com/CompilerCaster/autofill_google_sheets/assets/128957307/63af7f70-be95-4f92-8ebb-a1255cbba23b)
+
+3. Then, knowing what each shift looks like in terms of time requirements, we indicate that during the day the first person will work according to the “Day 1” scheme, the second person according to the “Day 2” scheme
+The third will work according to the “Day 3” scheme, and the fourth will again work according to the “Day 1” scheme. And this happens all the time. The fifth person would work on Day 2, the sixth person would work on Day 3, and so on. We do the same with night shifts;
+
+![изображение](https://github.com/CompilerCaster/autofill_google_sheets/assets/128957307/e80028c9-4a5e-4b96-ad88-66352d083857)
+
 
 
 
