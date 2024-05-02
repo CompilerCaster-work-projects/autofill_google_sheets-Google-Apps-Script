@@ -31,6 +31,16 @@ Work with the demand file occurs as follows: The machine learning model predicts
 
 ![изображение](https://github.com/CompilerCaster/autofill_google_sheets/assets/128957307/5ac4cd13-d344-4310-9db1-ab9174edeb8e)
 
+| №  | Description                                          |
+|----|--------------------------------------------------------------|
+| 1  | Part that has been automated in this project                 |
+| 2  | City names                                                    |
+| 3  | Shift names. Shifts always look the same. In this example, on January 1, 2023, in Tver, during the "Day 1" shift, people work from 8 AM to 11 AM, then take a break for 1 hour, and then work from 12 PM to 8 PM. And in this way (time-wise), this shift in this city always looks the same, from month to month and from day to day. |
+| 4  | Result row. Here it is indicated whether there are enough people working at this hour |
+| 5  | Name of the hour of the day                                   |
+| 6  | Date and day of the week                                      |
+
+
 
 
 
