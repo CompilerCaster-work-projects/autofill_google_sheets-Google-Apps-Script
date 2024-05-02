@@ -40,7 +40,7 @@ Work with the demand file occurs as follows: The machine learning model predicts
 | 5  | Name of the hour of the day                                   |
 | 6  | Date and day of the week                                      |
 
-### How to fill out the "Requirements" file using the "Work Schedule" file
+### How to fill out the "Needs" file using the "Work Schedule" file
 Let's say we want to fill out the "Needs" in Tver on September 3, 2023.
 1. Let’s see that in Tver on September 3, 4 people will work during the day and 4 people at night (different people always work day and night, this is the rule);
 
@@ -52,6 +52,20 @@ The third will work according to the “Day 3” scheme, and the fourth will aga
 ![изображение](https://github.com/CompilerCaster/autofill_google_sheets/assets/128957307/e80028c9-4a5e-4b96-ad88-66352d083857)
 
 ## How to run and get results
+
+1. **follow the link from** ```Needs_example.txt```;
+2. Click the "Fill" button;
+   
+  ![изображение](https://github.com/CompilerCaster/autofill_google_sheets/assets/128957307/f51f41f6-40ad-4b6f-a4ed-2dce78e970f5)
+
+3. Select "Выберать лист графика";
+4. Select the sheet (it corresponds to the month from the "Work schedule" from which you need to obtain information for the "Needs");
+5. Select "Выбрать лист потребнностей";
+6. Similarly, select the sheet (corresponding to the month you want to fill in "Needs");
+7. Select "Заполнить всё" and get the result in the form of an automatically filled "Needs" for one month;
+
+
+
 
 
 
