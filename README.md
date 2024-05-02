@@ -51,6 +51,8 @@ The third will work according to the “Day 3” scheme, and the fourth will aga
 
 ![изображение](https://github.com/CompilerCaster/autofill_google_sheets/assets/128957307/e80028c9-4a5e-4b96-ad88-66352d083857)
 
+## How to run and get results
+
 
 
 
