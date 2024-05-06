@@ -1,0 +1,33 @@
+{
+  "timeZone": "Etc/GMT-3",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "Moscow",
+        "version": "0",
+        "libraryId": "1PJF4BfJlW9ng9HG_zk6p_StroiGu46Z4xSTEB4biqrWYn_htM74cTVGz",
+        "developmentMode": true
+      },
+      {
+        "userSymbol": "Tver",
+        "version": "0",
+        "libraryId": "1o7ysZOPrpX5kojg6OBFWEYrG5kVcGAX6vD3pqg1Pq3otBcCDaBE_eN5F",
+        "developmentMode": true
+      },
+      {
+        "userSymbol": "Saratov",
+        "version": "0",
+        "libraryId": "1UT0SQIJqQUGQwMoeiEVxgTqwwlNNAox12ye-zOHFchlmq2GA4zEnzxb-",
+        "developmentMode": true
+      },
+      {
+        "userSymbol": "Novosib",
+        "version": "0",
+        "libraryId": "1F_iJ3Mx0cldQSkX_yMuX-sb_AoAZAuSuiAC6rcTRUJNf1OqQ5dP7_j_R",
+        "developmentMode": true
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8"
+}

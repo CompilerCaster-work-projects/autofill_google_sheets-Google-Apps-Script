@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base target="_top">
+  </head>
+  <body>
+    <div>
+      <label for="sheetSelect">Выберите лист:</label>
+      <select id="sheetSelect">
+      </select>
+      <button onclick="saveSelection()">Выбрать</button>
+    </div>
+
+    <script>
+      // При загрузке страницы запрашиваем названия листов
+      document.addEventListener("DOMContentLoaded", function() {
+        google.script.run.withSuccessHandler(buildSelect).getSheetNames();
+      });
+
+      // Создаем выпадающий список с названиями листов
+      function buildSelect(sheetNames) {
+        var select = document.getElementById('sheetSelect');
+        sheetNames.forEach(function(name) {
+          var option = document.createElement('option');
+          option.value = name;
+          option.text = name;
+          select.appendChild(option);
+        });
+      }
+
+      // Сохраняем выбранный лист
+      function saveSelection() {
+        var selectedSheet = document.getElementById('sheetSelect').value;
+        google.script.run.saveSelectedSheet(selectedSheet);
+        google.script.host.close();
+      }
+    </script>
+  </body>
+</html>

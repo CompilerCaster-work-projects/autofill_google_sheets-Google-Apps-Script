@@ -1,0 +1,41 @@
+{
+  "timeZone": "Etc/GMT-3",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "dependencies": {
+    "enabledAdvancedServices": [
+      {
+        "userSymbol": "Drive",
+        "serviceId": "drive",
+        "version": "v2"
+      },
+      {
+        "userSymbol": "DriveActivity",
+        "serviceId": "driveactivity",
+        "version": "v2"
+      },
+      {
+        "userSymbol": "DriveLabels",
+        "serviceId": "drivelabels",
+        "version": "v2beta"
+      },
+      {
+        "userSymbol": "Sheets",
+        "serviceId": "sheets",
+        "version": "v4"
+      }
+    ],
+    "libraries": [
+      {
+        "userSymbol": "all_fillin",
+        "libraryId": "1q321VpP8kTzxSsTrPZMSZ0FzVC5iOglCRjwrk4SlTW81NpU8nXRx3WZM",
+        "version": "0",
+        "developmentMode": true
+      }
+    ]
+  },
+  "webapp": {
+    "executeAs": "USER_DEPLOYING",
+    "access": "ANYONE_ANONYMOUS"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "timeZone": "Etc/GMT-3",
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "all_fillin",
+        "version": "0",
+        "libraryId": "1q321VpP8kTzxSsTrPZMSZ0FzVC5iOglCRjwrk4SlTW81NpU8nXRx3WZM",
+        "developmentMode": true
+      }
+    ]
+  }
+}
